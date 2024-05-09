@@ -1,0 +1,25 @@
+.main {
+    height: 100%;
+
+    .mask, .body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #afa18f;
+        cursor: default;
+
+        span{
+        color: #00b386;
+        }
+    }
+
+    .mask {
+        position: absolute;
+        clip-path: circle(20px at 0px 0px);
+        background: #00CA99;
+        color: black;
+    }
+}

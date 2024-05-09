@@ -1,0 +1,13 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+
+    p{
+        margin: 0px;
+        margin-right: 1.5vw;
+    }
+    span {
+        color:black;
+        opacity: 0.2;
+    }
+}
