@@ -9,7 +9,7 @@ import gsap from 'gsap';
 import React, { useEffect, useRef } from 'react'
 import { useActiveSectionContext } from '../../context/active-section-context';
 import {VrHeadshetCanvas} from '../../components/canvas'
-import {MouseGamerCanvas} from '../../components/canvas'
+// import {MouseGamerCanvas} from '../../components/canvas'
 import styles from './page.module.scss'
 import{ HiUser } from 'react-icons/hi2';
 
@@ -82,10 +82,10 @@ const About = () => {
       <div className='bg-[#50f9e8] absolute -z-10 top-[9rem] left-[20%] h-[10.25rem] w-[12.25rem] xl:w-[10.25rem] rounded-full blur-[10rem]' />
       <div className='bg-[#fb66db] absolute -z-10 top-[50%] right-[10%] h-[10.25rem] w-[12.25rem] xl:w-[10.25rem] rounded-full blur-[10rem]' />
       <div className='w-[200px] h-[200px] xl:w-[400px] xl:h-[400px]  flex absolute top-0 left-0 z-50'> 
-        {/* <VrHeadshetCanvas /> */}
+        <VrHeadshetCanvas />
       </div>
       <div className='w-[200px] h-[200px] xl:w-[400px] xl:h-[400px]  flex absolute -bottom-5 xl:-bottom-14 right-0 z-50'> 
-        {/* <MouseGamerCanvas /> */}
+         {/* <MouseGamerCanvas />  */}
       </div>
       <div ref={container} className='flex absolute -top-80 flex-col items-center pt-[58vh] sm:pt-[52vh] xl:pt-[44vh] min-h-[140vh]'>
             <div className='flex relative justify-center pb-10 xl:pt-20 z-50 '>

@@ -10,13 +10,13 @@ import Motto from './components/Motto'
 
 export default function Home() {
   return (
-    <main className='overflow-hidden'>
+    <main className='w-full overflow-hidden bg-white backdrop-blur-[10px]'>
       <Intro />
       <Motto />
       <About />
       <Skill />
       <Work />
-      <Contact />
+      {/* <Contact /> */}
     </main>
   )
 }

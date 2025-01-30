@@ -29,15 +29,20 @@ export const navData = [
       hash: '#about',
       icon:  HiUser,
     },
+    {
+        name: 'Skill',
+        hash: '#skill',
+        icon:  HiEnvelope
+      },
     { name: 'Project',
       hash: '#project',
       icon:  HiViewColumns, 
     },
-    {
-      name: 'Contact',
-      hash: '#contact',
-      icon:  HiEnvelope
-    },
+    // {
+    //   name: 'Contact',
+    //   hash: '#contact',
+    //   icon:  HiEnvelope
+    // },
   ] as const;
 
   export const projectsData = [
@@ -50,13 +55,13 @@ export const navData = [
     { 
       title: 'DRRM Information Website',
       description: 'I created a Disaster Risk Reduction Mangement information Website of Bohol Island State University',
-      tags: ['Html', 'CSS', 'Javascript','MySQL'],
+      tags: ['Html', 'CSS', 'Javascript','MySQL', 'Php'],
       imageUrl: drrmImg,
     },
     { 
       title: 'Municipal Website',
       description: 'I created a Municipality of Bilar landing page that display the municipal information of event and it also display the municipal tourist spot.',
-      tags: ['Html', 'CSS', 'Javascript','MySQL'],
+      tags: ['Html', 'CSS', 'Javascript','MySQL', 'Php'],
       imageUrl: municipalImg,
     },
   ] as const;

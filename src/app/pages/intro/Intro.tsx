@@ -17,7 +17,7 @@ const myBfont = localFont({ src: "../../../../public/font/Jost-Regular.ttf" })
 
 const Home = () => {
   const {ref, inView} = useInView({
-    threshold: 0.5
+    threshold: 1
   });
   const { setActiveSection, setMobileActiveSection, timeOfLastClick } = useActiveSectionContext();
 
